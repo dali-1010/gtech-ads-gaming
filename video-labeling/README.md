@@ -18,6 +18,10 @@ This is a tool that leverage Google Cloud's Vertex AI and Google's Multimodal mo
 
 The GrCN Gaming Video Tagging Tool is a solution designed to streamline the process of tagging video content for the GrCN Gaming initiative. It is designed to enable our clients to efficiently analyze and categorize video content locally based on predefined criteria. This tool utilize Google Sheets API, Google Cloud Storage, Vertex AI API and additionally, yt-dlp for downloading YouTube videos. This solution uses the client libraries mentioned above to interact with the respective Google Cloud services. This solution can be easily deployed for both developers and users.
 
+**Full gTech video labeling solution offering workflow**
+
+![](images/video labeling workflow.drawio.png)
+
 ## Architecture
 
 The GrCN Gaming Video Tagging Tool employs a modular architecture to facilitate the video tagging process. This solution consists of the following key components:
