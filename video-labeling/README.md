@@ -18,9 +18,9 @@ This is a tool that leverage Google Cloud's Vertex AI and Google's Multimodal mo
 
 ## Introduction:
 
-**Welcome to the GrCN Gaming Video Tagging Tool!**
+**Welcome to the GrCN Gaming Video Labeling Tool!**
 
-The GrCN Gaming Video Tagging Tool is a solution designed to streamline the process of tagging video content for the GrCN Gaming initiative. It is designed to enable our clients to efficiently analyze and categorize video content locally based on predefined criteria. This tool utilize Google Sheets API, Google Cloud Storage, Vertex AI API and additionally, yt-dlp for downloading YouTube videos. This solution uses the client libraries mentioned above to interact with the respective Google Cloud services. This solution can be easily deployed for both developers and users.
+The GrCN Gaming Video Labeling Tool is a solution designed to streamline the process of tagging video content for the GrCN Gaming initiative. It is designed to enable our clients to efficiently analyze and categorize video content locally based on predefined criteria. This tool utilize Google Sheets API, Google Cloud Storage, Vertex AI API and additionally, yt-dlp for downloading YouTube videos. This solution uses the client libraries mentioned above to interact with the respective Google Cloud services. This solution can be easily deployed for both developers and users.
 
 **Full gTech video labeling solution offering workflow**
 
@@ -32,14 +32,14 @@ The GrCN Gaming Video Tagging Tool employs a modular architecture to facilitate 
 
 1.  **Data Ingestion:** The tool reads a list of video identifiers from a specified Google Sheet.
 2.  **Video Processing:** For each video identifier, the tool downloads the corresponding video content.
-3.  **AI-Powered Tagging:** The downloaded video is then analyzed powered by Google's Gemini model to analyze corresponding tags based on the video content.
+3.  **AI-Powered Labeling:** The downloaded video is then analyzed powered by Google's Gemini model to analyze corresponding tags based on the video content.
 4.  **Result Output:** The generated tags for each video are then written back to the original Google Sheet in a designated output sheet.
 
 This solution allows users to easily manage and process video tagging tasks in a scalable and efficient manner, directly from their local environment.
 
 ## Getting Started
 
-This guide will walk you through the installation and execution of the video tagging script. Please ensure you have the necessary prerequisites installed before proceeding.
+This guide will walk you through the installation and execution of the video labeling script. Please ensure you have the necessary prerequisites installed before proceeding.
 
 ## Prerequisites
 
@@ -53,7 +53,7 @@ Before you begin, ensure you have the following installed and configured:
 Follow these steps to install the necessary components and set up the tool:
 
 1.  **Download the Script:**
-    Download the video tagging script folder: [GAMING TAG API](https://drive.google.com/drive/folders/10yZoT1Q6bki1GW1hh_RkPmOS8Jd9nGVI?resourcekey=0-6CvZvey_PjoUZa5lDXWwUQ&usp=drive_link).
+    Download the video labeling script folder: [GAMING TAG API](https://drive.google.com/drive/folders/10yZoT1Q6bki1GW1hh_RkPmOS8Jd9nGVI?resourcekey=0-6CvZvey_PjoUZa5lDXWwUQ&usp=drive_link).
 
 2.  **Set up gCloud:**
     * Install the gCloud CLI as per the instructions on the [Install gcloud page](https://cloud.google.com/sdk/docs/install).
@@ -135,7 +135,7 @@ Follow these steps to install the necessary components and set up the tool:
     pip3 install --upgrade -r requirements.txt
     ```
 
-3.  **Run the video tagging script:**
+3.  **Run the video labeling script:**
     ```bash
     python3 gemini_cli.py
     ```
