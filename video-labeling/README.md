@@ -1,14 +1,8 @@
-# GrCN Gaming Video Labeling Tool
+<h1 align="left" style="line-height: 25px;">
+  <img src="images/gtech-logo-vertical-rgb.png" alt="Google Cloud Logo" width="25px" style="vertical-align: middle; margin-right: 10px;" />&nbsp;&nbsp;&nbsp;
+  <span style="vertical-align: middle; margin-left: 10px;">GrCN Gaming Video Labeling Tool</span>
+</h1>
 
-<p align="center">
-  <img src="images/gtech-logo-vertical-rgb-FullColor.png" alt="Google Cloud Logo" width="100" />
-  </p>
-
-<p align="center">
-  <a href="https://colab.research.google.com/drive/1D-OmfeHmhbF7hiXB7iVK0B7VD_JMtWRP?resourcekey=0-Pj3TFU_gBVRQ1NCeINdASA&usp=sharing" target="_blank">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-  </a>
-</p>
 
 ## Disclaimer
 
