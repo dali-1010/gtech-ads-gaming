@@ -20,7 +20,7 @@ The GrCN Gaming Video Tagging Tool is a solution designed to streamline the proc
 
 **Full gTech video labeling solution offering workflow**
 
-![](images/video labeling workflow.drawio.png)
+![](images/video-labeling-workflow.png)
 
 ## Architecture
 
